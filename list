@@ -1,0 +1,55 @@
+Access Control List (ACL) --- An ACL is a document that defines who can access a particular bucket or object. Each bucket and object in Amazon Simple Storage Service (Amazon S3) has an ACL.
+Authentication --- The is the process of proving your identity to a system. 
+Authorization --- This is the process of granting permission to an authenticated entity.
+Availability --- This is a property that indicates whether an application, data, or information is accessible and usable on demand by an authorized entity.
+Availability Zone --- An Availability Zone is a distinct location in an AWS Region that's insulated from failures in other Availability Zones. It is designed to provide inexpensive, low-latency network connectivity to other Availability Zones in the same Region. 
+Amazon Web Services (AWS) --- AWS is an infrastructure web services environment in the cloud for companies of all sizes.
+Application programming interface (API) --- An API is the entire set of operations, types, inputs, and outputs for a service.
+Bit --- A single binary digit. Commonly used in computing, a bit is either a value of 0 or 1.
+CPU --- This is a hardware component that’s the core computational unit in a server. Servers and other smart devices convert data into digital signals and perform mathematical operations on them. The CPU is the primary component that processes the signals and makes computing possible.
+Classless Inter-Domain Routing (CIDR) --- CIDR is an internet protocol address allocation and route aggregation methodology. For more information, see What is CIDR?(opens in a new tab) from the AWS Cloud Computing Concepts Hub.
+Client --- A client is a machine or application that accesses the cloud over a network connection, such as on behalf of a user. Most commonly, a client is a laptop or personal computer (PC). However, it can be a cell phone or tablet.
+Client-Side Encryption --- This is the act of encrypting your data locally to help ensure its security in transit and at rest. 
+Credentials --- These are also called access credentials or security credentials. In authentication and authorization, a system uses credentials to identify who is making a call and whether to allow the requested access. In AWS, credentials are typically the access key ID and the secret access key. Examples of credentials include a username and password, a security key, or a one-time use passcode.
+Cloud Service Provider (CSP) --- A CSP is a company that provides subscribers with access to internet-hosted computing, storage, and software services. Amazon Web Services (AWS) is an example of a CSP.
+Data Center --- A data center is a physical location that stores computing machines and their related hardware equipment. It contains the computing infrastructure that IT systems require, such as servers, data storage drives, and network equipment. It is the physical facility that stores any company’s digital data.
+Data (Network) Packet --- This is a unit of data made into a small package for travel along a network path.
+Deploy --- A term that describes installing or updating your application components onto infrastructure resources.
+Device --- This is a piece of hardware that functions to provide access to applications, files, and services. Examples include cell phones, laptops, tablets, PCs, or servers.
+DNS --- This is a service that routes internet traffic to websites by translating human-readable domain names, such as www.example.com, into numeric IP addresses, such as 192.0.2.1.
+Durability --- This term refers to a system's ability to perform its responsibilities over time, even when unexpected events can occur. For example, Amazon S3 is designed for 99.999999999 percent data durability.
+Edge Location --- An edge location is a data center that an AWS service uses to perform service-specific operations. Edge locations are examples of points of presence (PoPs) in the global edge network.
+Elasticity --- This is the ability to acquire resources as you need them and to release resources when you no longer need them. In the cloud, you want to do this automatically. For more information, see Elastic(opens in a new tab) in the Reactive Systems on AWS Whitepaper.
+Encrypt --- To encrypt something is to use a mathematical algorithm to make data unintelligible to unauthorized users. Encryption also gives authorized users a method to convert the altered data back to its original state, such as a key or password.
+Entity --- An entity is an individual (person), organization, device, or process. 
+Failover --- A failover is the redirection of traffic from a primary system to a secondary system.
+Firewall --- A firewall is a device that has a network protection application installed to safeguard the network from intentional or unintentional intrusion. A firewall sits at the junction point or gateway between the two networks, usually a private network and a public network, such as the internet.
+Gateway --- A gateway is a device or node that connects two different networks by translating communications from one protocol to another.
+HTTP  --- This is a protocol used to transmit data over the internet.
+IP --- This is a protocol that defines addressing on a computer network. Examples include IPv4 and IPv6.
+IP Address --- This is a unique number that identifies a device on the internet or local network. IP version 4 addresses are 32 bits, represented in a dotted decimal notation. Each number between decimals represents a value of 0–255. Each number between decimals is called an octet, representing 8 bits.
+(Examples include 10.24.34.0, 172.16.0.0, and 192.0.2.0.)
+Internet Service Provider (ISP) --- An ISP is a company that provides access to the Internet.
+IT and Information Systems (IS) --- IT and IS are often used to refer to the department in a company that is responsible for installing and maintaining computer hardware and software.
+Launch --- This is a term used to describe the process of installing and configuring a new virtual server or application. It can be used in the context of on-premises or cloud environments.
+Multi-Factor Authentication (MFA) --- MFA is an optional AWS account security feature. After you enable MFA, you must provide a six-digit, single-use code in addition to your sign-in credentials whenever you access secure AWS webpages or the AWS Management Console. You get this single-use code from an authentication device that you keep in your physical possession. Examples include text codes, email codes, and Universal Serial Bus (USB) devices.
+On Premises --- This term refers to IT hardware and software applications hosted where the business operates or in a physical data center.
+Operating System --- This is a program that communicates between the hardware and software supported by that system.
+Personal Computer (PC) --- This is a small-scale computer made to be used by an individual. Examples include laptops or desktop computers.
+Port, Port Number --- A port is a logical construct that identifies a specific process or type of network service or protocol. A well-known port number is a common port aligned with a specific transport protocol. Examples include port 80 (HTTP), port 443 (HTTPS), and port 53 (DNS).
+Protocol --- This is a set of rules that determines how data is transmitted between devices in the same network or across networks. Examples include HTTP, Simple Mail Transfer Protocol (SMTP), and SSL.
+AWS Region --- A named set of AWS resources that's in the same geographical area. A Region is comprised of   at least three Availability Zones.
+Regions are divided into partitions. AWS commercial Regions are in the aws partition. China Regions are in the aws-cn partition, and AWS GovCloud (US) Regions are in the aws-us-gov partition.
+Regional Services --- Regional services are services that AWS has built on top of multiple Availability Zones so that you don’t have to figure out how to make the best use of zonal services. Regional services only require the assignment of a Region. They use the independence and redundancy of Availability Zones to minimize infrastructure failure.
+Resiliency --- This indicates the ability of a system to both recover and continue operating in the event of a disruption. Examples include clustered servers, redundant workloads, and failover mechanisms.
+Router --- This is a device that forwards data packets between networks.
+Routing --- This is the process of selecting a path across one or more networks and transmitting data from the source network to the destination network.
+Scalability --- This is the ability of a cloud service to grow as the demands of a workload change over time. Examples include horizontal or vertical scaling mechanisms.
+TLS, SSL --- This is a cryptographic protocol that provides security for communication over the internet. The predecessor to TLS is SSL.
+Server --- This is a computer or device on a network that manages network resources. Examples include file servers (to store files), print servers (to manage one or more printers), network servers (to manage network traffic), and database servers (to process database queries). 
+Server-Side Encryption (SSE) --- SSE is the encryption of data at its destination by the application or service that receives it.
+Subnet, subnetting --- This is a logical subdivision on an IP network. Subnetting is the process of creating the subdivision.
+Subnet mask --- This is a set of identifiers that returns the network address’s value from the IP address by turning the host address into zeroes.
+Switch --- This is a device that forwards data packets between devices in a single network. It is not aware of network addressing.
+Web Application Firewall (WAF) --- This is a service that filters and monitors HTTP traffic between your application and the internet.
+Zonal Services --- Zonal services require the assignment of a Region and an Availability Zone.
